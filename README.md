@@ -21,3 +21,8 @@ One of the most extensively used neural network algorithms is the back propagati
 ## Gaussian Naive Bayes
 Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem.  It is a group of algorithms that share a similar premise, namely that each pair of characteristics being categorized is independent of the others. It predicts membership probabilities for each class such as the probability that a given record or data point belongs to a particular class.  The class with the highest probability is considered as the most likely class. When attribute values are continuous, an assumption is made that the values associated with each class are distributed according to Gaussian i.e., Normal Distribution. In such cases the Gaussian Naive Bayes classifier is used. 20\% of the data is considered as labelled data and is trained on the model with 20 data splits on the entire dataset. The error, accuracy, precision are found as an average of the 20 results obtained from each split. 
 
+# Result
+Accuracies obtained:
+1. DT Classifier-1
+2. BP Network- 0.81
+3. Naive Bayes- 0.99
